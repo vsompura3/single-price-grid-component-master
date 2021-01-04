@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: .8rem;
+    color: #fff;
+    background-color: coral;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.global-wrapper{
+    width: 85%;
+    margin: 3em auto;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.primary{
+    padding: 1.8em 1.5em;
+    background-color: #fff;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.primary h1{
+    color: hsl(179, 62%, 43%); 
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.primary h2{
+    color: hsl(71, 73%, 54%);
+    font-size: 1.025rem;
+    margin-bottom: 1.5em;
+    line-height: 1.2;
+}
+
+.primary p{
+    color: hsl(218, 22%, 67%);
+    line-height: 1.8;
+    font-size: .9rem;
+}
+
+.secondary{
+    padding: 1.8em 1.5em;
+    background-color: hsl(179,62%, 43%);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.secondary-one{
+    background-color: hsl(179,62%, 43%);
+}
+
+.secondary-one h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.secondary-one h2{
+    font-size: 2.1rem;
+    margin-bottom: .5em;
+}
+
+.secondary-one span{
+    font-size: 1rem;
+    opacity: 20%;
+    margin-bottom: .5em;
+}
